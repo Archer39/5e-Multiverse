@@ -1,153 +1,135 @@
 {
-    "name": "1forall-multiverse-compendium-",
-    "title": "1forALL -Multiverse Compendium-",
-    "author": "Archer39",
-    "url": "https://github.com/Archer39/Multiverse",
-    "manifest": "https://github.com/Archer39/Multiverse/releases/latest/download/module.json",
-    "download": "https://github.com/Archer39/Multiverse/releases/download/1.1/module.zip",
-    "description": "Un modulo che ti permette di avere tutto quello che esce dalla mente malatissima di Archer e dei suoi giocatori.",
+    "id": "multiverse5e",
+    "title": "Multiverse Compendium",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Archer39",
+            "url": "https://github.com/Archer39/",
+            "discord": "Il chierico#0285"
+        }
+    ],
+    "compatibility": {
+            "minimum": "10",
+            "maximum": "10",
+            "verified": "10.290"
+    },
+    "styles": [
+        "css/styles.css"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                "compatibility": {
+                    "minimum": "2.0.0",
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
     "packs": [
         {
             "name": "personaggi",
             "label": "Personaggi",
-            "type": "Actor",
-            "system": "dnd5e",
             "path": "packs/personaggi.db",
             "entity": "Actor",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Actor",
+            "package": "multiverse5e"
         },
         {
             "name": "avventure",
             "label": "Avventure",
-            "type": "Adventure",
-            "system": "dnd5e",
             "path": "packs/avventure.db",
             "entity": "Adventure",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Adventure",
+            "package": "multiverse5e"
         },
         {
             "name": "carte",
             "label": "Carte",
-            "type": "Cards",
             "path": "packs/carte.db",
             "entity": "Cards",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Cards",
+            "package": "multiverse5e"
         },
         {
             "name": "oggetti",
             "label": "Oggetti",
-            "type": "Item",
-            "system": "dnd5e",
             "path": "packs/oggetti.db",
             "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Item",
+            "package": "multiverse5e"
         },
         {
             "name": "appunti",
             "label": "Appunti",
-            "type": "JournalEntry",
             "path": "packs/appunti.db",
             "entity": "JournalEntry",
-            "module": "1forall-multiverse-compendium-"
-        },
-        {
-            "name": "macro",
-            "label": "Macro",
-            "type": "Macro",
-            "path": "packs/macro.db",
-            "entity": "Macro",
-            "module": "1forall-multiverse-compendium-"
+            "type": "JournalEntry",
+            "package": "multiverse5e"
         },
         {
             "name": "musiche",
             "label": "Musiche",
-            "type": "Playlist",
             "path": "packs/musiche.db",
             "entity": "Playlist",
-            "module": "1forall-multiverse-compendium-"
-        },
-        {
-            "name": "tabelle",
-            "label": "Tabelle",
-            "type": "RollTable",
-            "path": "packs/tabelle.db",
-            "entity": "RollTable",
-            "module": "1forall-multiverse-compendium-"
-        },
-        {
-            "name": "scene",
-            "label": "Scene",
-            "type": "Scene",
-            "path": "packs/scene.db",
-            "entity": "Scene",
-            "module": "1forall-multiverse-compendium-"
-        },
-        {
-            "name": "nemici",
-            "label": "Nemici",
-            "type": "Actor",
-            "system": "dnd5e",
-            "path": "packs/nemici.db",
-            "entity": "Actor",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Playlist",
+            "package": "multiverse5e"
         },
         {
             "name": "sottoclassi-privilegi",
-            "label": "Sottoclassi-privilegi",
-            "type": "Item",
-            "system": "dnd5e",
+            "label": "Sottoclassi-Privilegi",
             "path": "packs/sottoclassi-privilegi.db",
             "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
-        },
-        {
-            "name": "razze",
-            "label": "Razze",
             "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/razze.db",
-            "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
+            "package": "multiverse5e"
         },
         {
             "name": "razze-privilegi",
             "label": "Razze-Privilegi",
-            "type": "Item",
-            "system": "dnd5e",
             "path": "packs/razze-privilegi.db",
             "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Item",
+            "package": "multiverse5e"
         },
         {
-            "name": "mostri-privilegi",
-            "label": "Mostri-Privilegi",
-            "type": "Item",
-            "system": "dnd5e",
-            "path": "packs/mostri-privilegi.db",
+            "name": "razze",
+            "label": "Razze",
+            "path": "packs/razze.db",
             "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
+            "type": "Item",
+            "package": "multiverse5e"
         },
         {
             "name": "incantesimi",
             "label": "Incantesimi",
-            "type": "Item",
-            "system": "dnd5e",
             "path": "packs/incantesimi.db",
             "entity": "Item",
-            "module": "1forall-multiverse-compendium-"
-        }
-    ],
-    "id": "1forall-multiverse-compendium-",
-    "authors": [
+            "type": "Item",
+            "package": "multiverse5e"
+        },
         {
-            "name": "Archer39"
+            "name": "macro",
+            "label": "Macro",
+            "path": "packs/macro.db",
+            "entity": "Macro",
+            "type": "Macro",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "tabelle",
+            "label": "Tabelle",
+            "path": "packs/tabelle.db",
+            "entity": "RollTable",
+            "type": "RollTable",
+            "package": "multiverse5e"
         }
     ],
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
-    "compatibility": {
-        "minimum": 9,
-        "verified": 10
-    },
-    "version": "1.1"
+    "url": "https://github.com/Archer39/Multiverse-5e",
+    "manifest": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.1/module.json",
+    "download": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.1/module.zip",
+    "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici"
 }
