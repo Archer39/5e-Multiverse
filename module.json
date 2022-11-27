@@ -56,9 +56,17 @@
             "package": "multiverse5e"
         },
         {
-            "name": "oggetti",
-            "label": "Oggetti",
-            "path": "packs/oggetti.db",
+            "name": "background",
+            "label": "Background",
+            "path": "packs/background.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "talenti",
+            "label": "Talenti",
+            "path": "packs/talenti.db",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
