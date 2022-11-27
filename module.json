@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "Multiverse Compendium",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Archer39",
@@ -126,7 +126,7 @@
         }
     ],
     "url": "https://github.com/Archer39/Multiverse-5e",
-    "manifest": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.1/module.json",
-    "download": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.1/module.zip",
+    "manifest": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.2/module.json",
+    "download": "https://github.com/Archer39/Multiverse-5e/releases/download/0.0.2/module.zip",
     "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici"
 }
