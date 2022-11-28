@@ -27,9 +27,16 @@
                     "minimum": "2.0.0",
                     "verified": "2.0.3"
                 }
-            }
-        ]
-    },
+              }],
+              "requires": [{
+                "id": "compendium-folders",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+                "compatibility": {
+                  "verified": "10.288"
+                }
+              }]
+            },
     "packs": [
         {
             "name": "personaggi",
@@ -138,6 +145,6 @@
     ],
     "url": "https://github.com/Archer39/Multiverse-5e",
     "manifest": "https://github.com/Archer39/Multiverse-5e/releases/latest/download/module.json",
-    "download": "https://github.com/Archer39/Multiverse-5e/releases//latest/download/module.zip",
+    "download": "https://github.com/Archer39/Multiverse-5e/releases/latest/download/module.zip",
     "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici"
 }
