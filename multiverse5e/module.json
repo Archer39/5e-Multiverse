@@ -1,0 +1,150 @@
+{
+    "id": "multiverse5e",
+    "title": "Multiverse Compendium",
+    "version": "0.0.6",
+    "authors": [
+        {
+            "name": "Archer39",
+            "url": "https://github.com/Archer39/",
+            "discord": "Il chierico#0285"
+        }
+    ],
+    "compatibility": {
+            "minimum": "10",
+            "maximum": "10",
+            "verified": "10.290"
+    },
+    "styles": [
+        "css/styles.css"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+                "compatibility": {
+                    "minimum": "2.0.0",
+                    "verified": "2.0.3"
+                }
+              }],
+              "requires": [{
+                "id": "compendium-folders",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+                "compatibility": {
+                  "verified": "10.288"
+                }
+              }]
+            },
+    "packs": [
+        {
+            "name": "personaggi",
+            "label": "Personaggi",
+            "path": "packs/personaggi.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "avventure",
+            "label": "Avventure",
+            "path": "packs/avventure.db",
+            "entity": "Adventure",
+            "type": "Adventure",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "carte",
+            "label": "Carte",
+            "path": "packs/carte.db",
+            "entity": "Cards",
+            "type": "Cards",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "background",
+            "label": "Background",
+            "path": "packs/background.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "talenti",
+            "label": "Talenti",
+            "path": "packs/talenti.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "appunti",
+            "label": "Appunti",
+            "path": "packs/appunti.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "musiche",
+            "label": "Musiche",
+            "path": "packs/musiche.db",
+            "entity": "Playlist",
+            "type": "Playlist",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "sottoclassi-privilegi",
+            "label": "Sottoclassi-Privilegi",
+            "path": "packs/sottoclassi-privilegi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "razze-privilegi",
+            "label": "Razze-Privilegi",
+            "path": "packs/razze-privilegi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "razze",
+            "label": "Razze",
+            "path": "packs/razze.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "incantesimi",
+            "label": "Incantesimi",
+            "path": "packs/incantesimi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "macro",
+            "label": "Macro",
+            "path": "packs/macro.db",
+            "entity": "Macro",
+            "type": "Macro",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "tabelle",
+            "label": "Tabelle",
+            "path": "packs/tabelle.db",
+            "entity": "RollTable",
+            "type": "RollTable",
+            "package": "multiverse5e"
+        }
+    ],
+    "url": "https://github.com/Archer39/Multiverse-5e",
+    "manifest": "https://github.com/Archer39/Multiverse-5e/releases/latest/download/module.json",
+    "download": "https://github.com/Archer39/Multiverse-5e/releases/latest/download/module.zip",
+    "description": "Questo modulo aggiunge classi, sottoclassi e altri elementi mancanti da D&D 5e SRD. Inoltre aggiunge il pazzo materiale Homebrew di Archer e i suoi amici"
+}
