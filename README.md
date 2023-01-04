@@ -1,4 +1,4 @@
-#5e-Multiverse
+# 5e-Multiverse
 
 
 Per motivi di copyright, Multiverse 5e non sarà pubblicato sulle piattaforme ufficiali. Si prega di installare utilizzando `module.zip` o il seguente manifest:
