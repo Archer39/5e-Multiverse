@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "Multiverse Compendium",
-    "version": "0.1",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "Archer39",
@@ -114,6 +114,14 @@
             "name": "razze",
             "label": "Razze",
             "path": "packs/razze.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "oggetti",
+            "label": "Oggetti",
+            "path": "packs/oggetti.db",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
