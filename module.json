@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "5e Multiverse Compendium",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "authors": [
         {
             "name": "Archer39",
@@ -96,15 +96,23 @@
         },
         {
             "name": "sottoclassi-privilegi",
-            "label": "Sottoclassi-Privilegi",
+            "label": "Privilegi di Classe",
             "path": "packs/sottoclassi-privilegi.db",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
         },
         {
+            "name": "classi",
+            "label": "Classi",
+            "path": "packs/classi.db",
+            "entity": "Item",
+            "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
             "name": "razze-privilegi",
-            "label": "Razze-Privilegi",
+            "label": "Privilegi di Razze",
             "path": "packs/razze-privilegi.db",
             "entity": "Item",
             "type": "Item",
