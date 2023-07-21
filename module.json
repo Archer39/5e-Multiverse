@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "5e Multiverse Compendium",
-    "version": "0.1.9",
+    "version": "0.2",
     "authors": [
         {
             "name": "Archer39",
@@ -100,6 +100,14 @@
             "path": "packs/sottoclassi-privilegi.db",
             "entity": "Item",
             "type": "Item",
+            "package": "multiverse5e"
+        },
+        {
+            "name": "mostri",
+            "label": "Mostri",
+            "path": "packs/mostri.db",
+            "entity": "Actor",
+            "type": "Actor",
             "package": "multiverse5e"
         },
         {
