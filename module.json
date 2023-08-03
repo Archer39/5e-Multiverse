@@ -29,11 +29,11 @@
                 }
               }],
               "requires": [{
-                "id": "compendium-folders",
+                "id": " midi-qol",
                 "type": "module",
-                "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+                "manifest": "https://gitlab.com/tposney/midi-qol/raw/v11/package/module.json",
                 "compatibility": {
-                  "verified": "10.288"
+                  "verified": "11.306"
                 }
               }]
             },
