@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "5e Multiverse Compendium",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "authors": [
         {
             "name": "Archer39",
@@ -25,7 +25,7 @@
                 "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
                 "compatibility": {
                     "minimum": "2.0.0",
-                    "verified": "2.1.5"
+                    "verified": "2.2.2"
                 }
               }],
               "requires": [{
