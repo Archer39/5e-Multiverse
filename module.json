@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "5e Multiverse Compendium",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "authors": [
         {
             "name": "Archer39",
@@ -12,7 +12,7 @@
     "compatibility": {
             "minimum": "10",
             "maximum": "11",
-            "verified": "11.307"
+            "verified": "11.999"
     },
     "styles": [
         "css/styles.css"
