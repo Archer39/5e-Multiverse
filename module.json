@@ -29,7 +29,7 @@
                 }
               }],
               "requires": [{
-                "id": " midi-qol",
+                "id": "midi-qol",
                 "type": "module",
                 "manifest": "https://gitlab.com/tposney/midi-qol/raw/v11/package/module.json",
                 "compatibility": {
