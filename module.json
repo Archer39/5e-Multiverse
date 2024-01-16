@@ -1,7 +1,7 @@
 {
     "id": "multiverse5e",
     "title": "5e Multiverse Compendium",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "authors": [
         {
             "name": "Archer39",
@@ -24,8 +24,8 @@
                 "type": "system",
                 "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
                 "compatibility": {
-                    "minimum": "2.0.0",
-                    "verified": "2.2.2"
+                    "minimum": "2.4.1",
+                    "verified": "2.4.1"
                 }
               }],
               "requires": [{
@@ -33,7 +33,7 @@
                 "type": "module",
                 "manifest": "https://gitlab.com/tposney/midi-qol/raw/v11/package/module.json",
                 "compatibility": {
-                  "verified": "11.306"
+                  "verified": "11.3.12.6"
                 }
               }]
             },
@@ -41,7 +41,7 @@
         {
             "name": "personaggi",
             "label": "Personaggi",
-            "path": "packs/personaggi.db",
+            "path": "packs/personaggi",
             "entity": "Actor",
             "type": "Actor",
             "package": "multiverse5e"
@@ -49,7 +49,7 @@
         {
             "name": "avventure",
             "label": "Avventure",
-            "path": "packs/avventure.db",
+            "path": "packs/avventure",
             "entity": "Adventure",
             "type": "Adventure",
             "package": "multiverse5e"
@@ -57,7 +57,7 @@
         {
             "name": "carte",
             "label": "Carte",
-            "path": "packs/carte.db",
+            "path": "packs/carte",
             "entity": "Cards",
             "type": "Cards",
             "package": "multiverse5e"
@@ -65,7 +65,7 @@
         {
             "name": "background",
             "label": "Background",
-            "path": "packs/background.db",
+            "path": "packs/background",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -73,7 +73,7 @@
         {
             "name": "talenti",
             "label": "Talenti",
-            "path": "packs/talenti.db",
+            "path": "packs/talenti",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -81,7 +81,7 @@
         {
             "name": "appunti",
             "label": "Appunti",
-            "path": "packs/appunti.db",
+            "path": "packs/appunti",
             "entity": "JournalEntry",
             "type": "JournalEntry",
             "package": "multiverse5e"
@@ -89,7 +89,7 @@
         {
             "name": "musiche",
             "label": "Musiche",
-            "path": "packs/musiche.db",
+            "path": "packs/musiche",
             "entity": "Playlist",
             "type": "Playlist",
             "package": "multiverse5e"
@@ -97,7 +97,7 @@
         {
             "name": "sottoclassi-privilegi",
             "label": "Privilegi di Classe",
-            "path": "packs/sottoclassi-privilegi.db",
+            "path": "packs/sottoclassi-privilegi",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -105,7 +105,7 @@
         {
             "name": "mostri",
             "label": "Mostri",
-            "path": "packs/mostri.db",
+            "path": "packs/mostri",
             "entity": "Actor",
             "type": "Actor",
             "package": "multiverse5e"
@@ -113,7 +113,7 @@
         {
             "name": "classi",
             "label": "Classi",
-            "path": "packs/classi.db",
+            "path": "packs/classi",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -121,7 +121,7 @@
         {
             "name": "razze-privilegi",
             "label": "Privilegi di Razze",
-            "path": "packs/razze-privilegi.db",
+            "path": "packs/razze-privilegi",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -129,7 +129,7 @@
         {
             "name": "razze",
             "label": "Razze",
-            "path": "packs/razze.db",
+            "path": "packs/razze",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -137,7 +137,7 @@
         {
             "name": "oggetti",
             "label": "Oggetti",
-            "path": "packs/oggetti.db",
+            "path": "packs/oggetti",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -145,7 +145,7 @@
         {
             "name": "incantesimi",
             "label": "Incantesimi",
-            "path": "packs/incantesimi.db",
+            "path": "packs/incantesimi",
             "entity": "Item",
             "type": "Item",
             "package": "multiverse5e"
@@ -153,7 +153,7 @@
         {
             "name": "macro",
             "label": "Macro",
-            "path": "packs/macro.db",
+            "path": "packs/macro",
             "entity": "Macro",
             "type": "Macro",
             "package": "multiverse5e"
@@ -161,7 +161,7 @@
         {
             "name": "tabelle",
             "label": "Tabelle",
-            "path": "packs/tabelle.db",
+            "path": "packs/tabelle",
             "entity": "RollTable",
             "type": "RollTable",
             "package": "multiverse5e"
